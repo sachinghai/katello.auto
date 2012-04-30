@@ -1,0 +1,14 @@
+(defgroup
+  login-admin
+ 
+  (use 'katello.conf )
+  (use '[com.redhat.qe.verify :only [verify-that]])
+  (use 'katello.tasks))
+
+
+(deftest
+ "Login as Admin"
+ 
+ (logout)
+ (login *session-user* *session-password*)
+ (verify-that (= (current-user) *session-user*)))

@@ -1,0 +1,16 @@
+(defgroup login-invalid
+  (use 'katello.tests.login))
+
+
+(deftest-datadriven
+ "Login with invalid credentials is rejected"
+
+ invalid-credential-rejected
+
+ ["admin" ""]
+ ["admin" "asdfasdf"]
+ ["" ""]
+ ["" "mypass"]
+ ["aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+  "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"])
+
