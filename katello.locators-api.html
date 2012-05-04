@@ -58,9 +58,17 @@ namespace.
     </div><div style="margin-left: 1em;" class="toc-entry">
       <a href="#katello.locators/inactive-edit-field">inactive-edit-field</a>
     </div><div style="margin-left: 1em;" class="toc-entry">
+      <a href="#katello.locators/left-pane-item">left-pane-item</a>
+    </div><div style="margin-left: 1em;" class="toc-entry">
+      <a href="#katello.locators/page-tree">page-tree</a>
+    </div><div style="margin-left: 1em;" class="toc-entry">
+      <a href="#katello.locators/promotion-env-breadcrumb">promotion-env-breadcrumb</a>
+    </div><div style="margin-left: 1em;" class="toc-entry">
       <a href="#katello.locators/toggle">toggle</a>
     </div><div style="margin-left: 1em;" class="toc-entry">
       <a href="#katello.locators/toggler">toggler</a>
+    </div><div style="margin-left: 1em;" class="toc-entry">
+      <a href="#katello.locators/uimap">uimap</a>
     </div><div style="margin-left: 1em;" class="toc-entry">
       <a href="#katello.locators/via">via</a>
     </div>
@@ -92,7 +100,7 @@ search is performed and the select is attempted again. Takes an
 optional post-fn to perform afterwards.</pre>
   
   
-  
+  <a href="https://github.com/weissjeffm/katello.auto/blob/0b13226226afd7bd82b15b8407b11259a3abb795/src/katello/locators.clj#L344" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -103,10 +111,11 @@ optional post-fn to perform afterwards.</pre>
   <pre id="var-docstr">Expands into a function for each locator strategy in map m (which
 maps symbol to LocatorStrategy). Each function will be named the
 same as the symbol, take arguments and return a new element
-constructed with the locator strategy and args.</pre>
+constructed with the locator strategy and args. See also the
+LocatorTemplate class.</pre>
   
   
-  
+  <a href="https://github.com/weissjeffm/katello.auto/blob/0b13226226afd7bd82b15b8407b11259a3abb795/src/katello/locators.clj#L15" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -114,10 +123,52 @@ constructed with the locator strategy and args.</pre>
   <span id="var-type">function</span><br />
   <pre id="var-usage">Usage: (inactive-edit-field loc)
 </pre>
-  <pre id="var-docstr">Takes a locator for an active in-place edit field, returns the inactive version</pre>
+  <pre id="var-docstr">Takes a locator for an active in-place edit field, returns the
+inactive version</pre>
   
   
+  <a href="https://github.com/weissjeffm/katello.auto/blob/0b13226226afd7bd82b15b8407b11259a3abb795/src/katello/locators.clj#L309" id="var-source">Source</a>
+</div><div id="var-entry">
+  <br />
+  <hr />
+  <h2 id="katello.locators/left-pane-item">left-pane-item</h2>
+  <span id="var-type">function</span><br />
+  <pre id="var-usage">Usage: (left-pane-item name)
+</pre>
+  <pre id="var-docstr">Returns a selenium locator for an item in a left
+pane list (by the name of the item)</pre>
   
+  
+  <a href="https://github.com/weissjeffm/katello.auto/blob/0b13226226afd7bd82b15b8407b11259a3abb795/src/katello/locators.clj#L315" id="var-source">Source</a>
+</div><div id="var-entry">
+  <br />
+  <hr />
+  <h2 id="katello.locators/page-tree">page-tree</h2>
+  <span id="var-type">var</span><br />
+  <pre id="var-usage"></pre>
+  <pre id="var-docstr">The navigation layout of the UI. Each item in the tree is
+a new page or tab, that you can drill down into from its parent
+item. Each item contains a keyword to refer to the location in the
+UI, a list of any arguments needed to navigate there (for example,
+to navigate to a provider details page, you need the name of the
+provider). Finally some code to navigate to the location from its
+parent location. See also katello.tasks/navigate.</pre>
+  
+  
+  <a href="https://github.com/weissjeffm/katello.auto/blob/0b13226226afd7bd82b15b8407b11259a3abb795/src/katello/locators.clj#L378" id="var-source">Source</a>
+</div><div id="var-entry">
+  <br />
+  <hr />
+  <h2 id="katello.locators/promotion-env-breadcrumb">promotion-env-breadcrumb</h2>
+  <span id="var-type">function</span><br />
+  <pre id="var-usage">Usage: (promotion-env-breadcrumb name &amp; [next])
+</pre>
+  <pre id="var-docstr">Locates a link in the environment breadcrumb UI widget. If there
+are multiple environment paths, and you wish to select Library,
+'next' is required.</pre>
+  
+  
+  <a href="https://github.com/weissjeffm/katello.auto/blob/0b13226226afd7bd82b15b8407b11259a3abb795/src/katello/locators.clj#L299" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -128,7 +179,7 @@ constructed with the locator strategy and args.</pre>
   <pre id="var-docstr">Toggles the item from on to off or vice versa.</pre>
   
   
-  
+  <a href="https://github.com/weissjeffm/katello.auto/blob/0b13226226afd7bd82b15b8407b11259a3abb795/src/katello/locators.clj#L370" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -141,7 +192,20 @@ and locator strategy. Used for clicking things like +Add/Remove for
 items in changesets or permission lists.</pre>
   
   
+  <a href="https://github.com/weissjeffm/katello.auto/blob/0b13226226afd7bd82b15b8407b11259a3abb795/src/katello/locators.clj#L355" id="var-source">Source</a>
+</div><div id="var-entry">
+  <br />
+  <hr />
+  <h2 id="katello.locators/uimap">uimap</h2>
+  <span id="var-type">var</span><br />
+  <pre id="var-usage"></pre>
+  <pre id="var-docstr">All the selenium locators for the Katello UI. Maps a
+keyword to the selenium locator. You can pass the keyword to
+selenium just the same as you would the locator string. See also
+SeleniumLocatable protocol.</pre>
   
+  
+  <a href="https://github.com/weissjeffm/katello.auto/blob/0b13226226afd7bd82b15b8407b11259a3abb795/src/katello/locators.clj#L271" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -153,7 +217,7 @@ items in changesets or permission lists.</pre>
 optional post-click function.</pre>
   
   
-  
+  <a href="https://github.com/weissjeffm/katello.auto/blob/0b13226226afd7bd82b15b8407b11259a3abb795/src/katello/locators.clj#L328" id="var-source">Source</a>
 </div>
 
 
