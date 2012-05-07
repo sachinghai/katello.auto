@@ -58,13 +58,19 @@ namespace.
     </div><div style="margin-left: 1em;" class="toc-entry">
       <a href="#katello.validation/expect-error">expect-error</a>
     </div><div style="margin-left: 1em;" class="toc-entry">
+      <a href="#katello.validation/expect-error-on-action">expect-error-on-action</a>
+    </div><div style="margin-left: 1em;" class="toc-entry">
       <a href="#katello.validation/field-validation">field-validation</a>
     </div><div style="margin-left: 1em;" class="toc-entry">
       <a href="#katello.validation/matching-validation-errors">matching-validation-errors</a>
     </div><div style="margin-left: 1em;" class="toc-entry">
+      <a href="#katello.validation/name-field-required">name-field-required</a>
+    </div><div style="margin-left: 1em;" class="toc-entry">
       <a href="#katello.validation/validation-errors">validation-errors</a>
     </div><div style="margin-left: 1em;" class="toc-entry">
       <a href="#katello.validation/variations">variations</a>
+    </div><div style="margin-left: 1em;" class="toc-entry">
+      <a href="#katello.validation/verify-2nd-try-fails-with">verify-2nd-try-fails-with</a>
     </div>
     <br />
   </div>
@@ -93,7 +99,7 @@ namespace.
 :name-cant-be-blank #"Name can't be blank</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/0b13226226afd7bd82b15b8407b11259a3abb795/src/katello/validation.clj#L10" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/bce98b3e5e4277da1eefec668b813c56f31a53c2/src/katello/validation.clj#L10" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -105,7 +111,7 @@ namespace.
 second call results in a 'Name taken' validation error.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/0b13226226afd7bd82b15b8407b11259a3abb795/src/katello/validation.clj#L73" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/bce98b3e5e4277da1eefec668b813c56f31a53c2/src/katello/validation.clj#L73" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -117,7 +123,21 @@ second call results in a 'Name taken' validation error.</pre>
 errors actually appears in the validation result.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/0b13226226afd7bd82b15b8407b11259a3abb795/src/katello/validation.clj#L56" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/bce98b3e5e4277da1eefec668b813c56f31a53c2/src/katello/validation.clj#L56" id="var-source">Source</a>
+</div><div id="var-entry">
+  <br />
+  <hr />
+  <h2 id="katello.validation/expect-error-on-action">expect-error-on-action</h2>
+  <span id="var-type">function</span><br />
+  <pre id="var-usage">Usage: (expect-error-on-action pred create-fn &amp; args)
+</pre>
+  <pre id="var-docstr">Calls create-fn, which should create some katello entity with the
+given args. Verifies that the results match the given pred. The
+predicate can be a keyword for a matching error, or any predicate
+function.</pre>
+  
+  
+  <a href="https://github.com/weissjeffm/katello.auto/blob/bce98b3e5e4277da1eefec668b813c56f31a53c2/src/katello/validation.clj#L99" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -129,7 +149,7 @@ errors actually appears in the validation result.</pre>
 given args. Verifies that the results match the given pred.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/0b13226226afd7bd82b15b8407b11259a3abb795/src/katello/validation.clj#L63" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/bce98b3e5e4277da1eefec668b813c56f31a53c2/src/katello/validation.clj#L63" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -140,7 +160,23 @@ given args. Verifies that the results match the given pred.</pre>
   <pre id="var-docstr">Returns a set of matching known validation errors</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/0b13226226afd7bd82b15b8407b11259a3abb795/src/katello/validation.clj#L51" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/bce98b3e5e4277da1eefec668b813c56f31a53c2/src/katello/validation.clj#L51" id="var-source">Source</a>
+</div><div id="var-entry">
+  <br />
+  <hr />
+  <h2 id="katello.validation/name-field-required">name-field-required</h2>
+  <span id="var-type">function</span><br />
+  <pre id="var-usage">Usage: (name-field-required create-fn args)
+</pre>
+  <pre id="var-docstr">Verifies that when create-fn is called with args, katello gives an
+error message that the name field cannot be blank. create-fn should
+be a function that creates some entity in katello, eg. an org,
+environment, provider, etc. The args provided should cause create-fn
+to not fill in a name field. Example:
+ (name-field-required create-organization [''])</pre>
+  
+  
+  <a href="https://github.com/weissjeffm/katello.auto/blob/bce98b3e5e4277da1eefec668b813c56f31a53c2/src/katello/validation.clj#L80" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -154,7 +190,7 @@ notification message in the UI. See also expect-error and
 field-validation.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/0b13226226afd7bd82b15b8407b11259a3abb795/src/katello/validation.clj#L21" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/bce98b3e5e4277da1eefec668b813c56f31a53c2/src/katello/validation.clj#L21" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -167,7 +203,20 @@ insert it into the original test data using function f, to produce
 a new set of data. </pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/0b13226226afd7bd82b15b8407b11259a3abb795/src/katello/validation.clj#L44" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/bce98b3e5e4277da1eefec668b813c56f31a53c2/src/katello/validation.clj#L44" id="var-source">Source</a>
+</div><div id="var-entry">
+  <br />
+  <hr />
+  <h2 id="katello.validation/verify-2nd-try-fails-with">verify-2nd-try-fails-with</h2>
+  <span id="var-type">function</span><br />
+  <pre id="var-usage">Usage: (verify-2nd-try-fails-with exp-err f &amp; args)
+</pre>
+  <pre id="var-docstr">Verify that when f is called with args for the 2nd time, katello
+shows an error message of the type exp-err. See also
+validation-errors.</pre>
+  
+  
+  <a href="https://github.com/weissjeffm/katello.auto/blob/bce98b3e5e4277da1eefec668b813c56f31a53c2/src/katello/validation.clj#L91" id="var-source">Source</a>
 </div>
 
 

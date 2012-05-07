@@ -51,7 +51,15 @@ namespace.
   <h1 class="nopad">Table of Contents</h1>
   <div style="margin-left: 1em;" class="toc-section">
     <a href="#toc0">Overview</a>
-    
+    <div style="margin-left: 1em;" class="toc-entry">
+      <a href="#katello.tests.environments/create-test-org">create-test-org</a>
+    </div><div style="margin-left: 1em;" class="toc-entry">
+      <a href="#katello.tests.environments/setup-environment-with-promoted-content">setup-environment-with-promoted-content</a>
+    </div><div style="margin-left: 1em;" class="toc-entry">
+      <a href="#katello.tests.environments/verify-create-same-env-in-multiple-orgs">verify-create-same-env-in-multiple-orgs</a>
+    </div><div style="margin-left: 1em;" class="toc-entry">
+      <a href="#katello.tests.environments/verify-delete-env-restricted-to-this-org">verify-delete-env-restricted-to-this-org</a>
+    </div>
     <br />
   </div>
 </div>
@@ -68,7 +76,62 @@ namespace.
 
 <br />
 <h2>Public Variables and Functions</h2>
-
+<div id="var-entry">
+  <br />
+  <hr />
+  <h2 id="katello.tests.environments/create-test-org">create-test-org</h2>
+  <span id="var-type">function</span><br />
+  <pre id="var-usage">Usage: (create-test-org)
+</pre>
+  <pre id="var-docstr">Creates a new org for testing environments
+using the API.</pre>
+  
+  
+  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tests/environments.clj#L66" id="var-source">Source</a>
+</div><div id="var-entry">
+  <br />
+  <hr />
+  <h2 id="katello.tests.environments/setup-environment-with-promoted-content">setup-environment-with-promoted-content</h2>
+  <span id="var-type">function</span><br />
+  <pre id="var-usage">Usage: (setup-environment-with-promoted-content env-name)
+</pre>
+  <pre id="var-docstr">Creates a new environment in the admin org, and promotes a
+product with a sync'd repo into it. Uses the API.</pre>
+  
+  
+  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tests/environments.clj#L48" id="var-source">Source</a>
+</div><div id="var-entry">
+  <br />
+  <hr />
+  <h2 id="katello.tests.environments/verify-create-same-env-in-multiple-orgs">verify-create-same-env-in-multiple-orgs</h2>
+  <span id="var-type">function</span><br />
+  <pre id="var-usage">Usage: (verify-create-same-env-in-multiple-orgs env-name orgs)
+</pre>
+  <pre id="var-docstr">Verifies that the same environment name can be used independently
+in different organizations. See also
+verify-delete-env-restricted-to-this-org.</pre>
+  
+  
+  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tests/environments.clj#L39" id="var-source">Source</a>
+</div><div id="var-entry">
+  <br />
+  <hr />
+  <h2 id="katello.tests.environments/verify-delete-env-restricted-to-this-org">verify-delete-env-restricted-to-this-org</h2>
+  <span id="var-type">function</span><br />
+  <pre id="var-usage">Usage: (verify-delete-env-restricted-to-this-org env-name orgs)
+</pre>
+  <pre id="var-docstr">Verify that when you create multiple environments with the same
+name in multiple orgs, and you delete one enviroment, the
+environment in the other orgs are not affected. Does the
+verification by navigating to the remaining environment(s). Takes
+the environment name to use, and a list of orgs as arguments. The
+orgs must already exist. See also
+katello.tests.provider/with-n-new-orgs which will handle this
+automatically.</pre>
+  
+  
+  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tests/environments.clj#L21" id="var-source">Source</a>
+</div>
 
 
 </div>

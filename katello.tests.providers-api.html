@@ -51,7 +51,23 @@ namespace.
   <h1 class="nopad">Table of Contents</h1>
   <div style="margin-left: 1em;" class="toc-section">
     <a href="#toc0">Overview</a>
-    
+    <div style="margin-left: 1em;" class="toc-entry">
+      <a href="#katello.tests.providers/create-same-provider-in-multiple-orgs">create-same-provider-in-multiple-orgs</a>
+    </div><div style="margin-left: 1em;" class="toc-entry">
+      <a href="#katello.tests.providers/create-test-provider">create-test-provider</a>
+    </div><div style="margin-left: 1em;" class="toc-entry">
+      <a href="#katello.tests.providers/get-all-providers">get-all-providers</a>
+    </div><div style="margin-left: 1em;" class="toc-entry">
+      <a href="#katello.tests.providers/get-validation-data">get-validation-data</a>
+    </div><div style="margin-left: 1em;" class="toc-entry">
+      <a href="#katello.tests.providers/validation">validation</a>
+    </div><div style="margin-left: 1em;" class="toc-entry">
+      <a href="#katello.tests.providers/verify-provider-renamed">verify-provider-renamed</a>
+    </div><div style="margin-left: 1em;" class="toc-entry">
+      <a href="#katello.tests.providers/with-n-new-orgs">with-n-new-orgs</a>
+    </div><div style="margin-left: 1em;" class="toc-entry">
+      <a href="#katello.tests.providers/with-two-providers">with-two-providers</a>
+    </div>
     <br />
   </div>
 </div>
@@ -68,7 +84,107 @@ namespace.
 
 <br />
 <h2>Public Variables and Functions</h2>
-
+<div id="var-entry">
+  <br />
+  <hr />
+  <h2 id="katello.tests.providers/create-same-provider-in-multiple-orgs">create-same-provider-in-multiple-orgs</h2>
+  <span id="var-type">function</span><br />
+  <pre id="var-usage">Usage: (create-same-provider-in-multiple-orgs prov-name orgs)
+</pre>
+  <pre id="var-docstr">Create providers with the same name in multiple orgs.</pre>
+  
+  
+  <a href="https://github.com/weissjeffm/katello.auto/blob/a452f43bbff6496031ef67baa3950dcd98f29b09/src/katello/tests/providers.clj#L56" id="var-source">Source</a>
+</div><div id="var-entry">
+  <br />
+  <hr />
+  <h2 id="katello.tests.providers/create-test-provider">create-test-provider</h2>
+  <span id="var-type">function</span><br />
+  <pre id="var-usage">Usage: (create-test-provider)
+</pre>
+  <pre id="var-docstr">Sets up a test custom provider to be used by other tests.</pre>
+  
+  
+  <a href="https://github.com/weissjeffm/katello.auto/blob/a452f43bbff6496031ef67baa3950dcd98f29b09/src/katello/tests/providers/custom-product.clj#L11" id="var-source">Source</a>
+</div><div id="var-entry">
+  <br />
+  <hr />
+  <h2 id="katello.tests.providers/get-all-providers">get-all-providers</h2>
+  <span id="var-type">function</span><br />
+  <pre id="var-usage">Usage: (get-all-providers)
+</pre>
+  <pre id="var-docstr">Uses API to return all provider names in the admin org</pre>
+  
+  
+  <a href="https://github.com/weissjeffm/katello.auto/blob/a452f43bbff6496031ef67baa3950dcd98f29b09/src/katello/tests/providers.clj#L18" id="var-source">Source</a>
+</div><div id="var-entry">
+  <br />
+  <hr />
+  <h2 id="katello.tests.providers/get-validation-data">get-validation-data</h2>
+  <span id="var-type">function</span><br />
+  <pre id="var-usage">Usage: (get-validation-data)
+</pre>
+  <pre id="var-docstr">a totally misguided attempt on my part to generate test data.
+Generating data is fine, but this code is unreadable even to me,
+should probably replace this code with the data it produces, and be
+done with it. Only issue there is we can't hardcode
+provider/product/repo names. -jweiss</pre>
+  
+  
+  <a href="https://github.com/weissjeffm/katello.auto/blob/a452f43bbff6496031ef67baa3950dcd98f29b09/src/katello/tests/providers.clj#L69" id="var-source">Source</a>
+</div><div id="var-entry">
+  <br />
+  <hr />
+  <h2 id="katello.tests.providers/validation">validation</h2>
+  <span id="var-type">function</span><br />
+  <pre id="var-usage">Usage: (validation pred provider)
+</pre>
+  <pre id="var-docstr">Attempts to creates a provider and validates the result using
+pred.</pre>
+  
+  
+  <a href="https://github.com/weissjeffm/katello.auto/blob/a452f43bbff6496031ef67baa3950dcd98f29b09/src/katello/tests/providers.clj#L63" id="var-source">Source</a>
+</div><div id="var-entry">
+  <br />
+  <hr />
+  <h2 id="katello.tests.providers/verify-provider-renamed">verify-provider-renamed</h2>
+  <span id="var-type">function</span><br />
+  <pre id="var-usage">Usage: (verify-provider-renamed old-name new-name)
+</pre>
+  <pre id="var-docstr">Verifies that a provider named old-name doesn't exist, that that a
+provider named new-name does exist.</pre>
+  
+  
+  <a href="https://github.com/weissjeffm/katello.auto/blob/a452f43bbff6496031ef67baa3950dcd98f29b09/src/katello/tests/providers.clj#L22" id="var-source">Source</a>
+</div><div id="var-entry">
+  <br />
+  <hr />
+  <h2 id="katello.tests.providers/with-n-new-orgs">with-n-new-orgs</h2>
+  <span id="var-type">function</span><br />
+  <pre id="var-usage">Usage: (with-n-new-orgs n f)
+</pre>
+  <pre id="var-docstr">Create n organizations with unique names. Then calls function f
+with a unique name, and the org names. This is useful for verifying
+whether the same name for an entity can be used across orgs.
+Switches back to admin org after f is called.</pre>
+  
+  
+  <a href="https://github.com/weissjeffm/katello.auto/blob/a452f43bbff6496031ef67baa3950dcd98f29b09/src/katello/tests/providers.clj#L30" id="var-source">Source</a>
+</div><div id="var-entry">
+  <br />
+  <hr />
+  <h2 id="katello.tests.providers/with-two-providers">with-two-providers</h2>
+  <span id="var-type">function</span><br />
+  <pre id="var-usage">Usage: (with-two-providers f)
+</pre>
+  <pre id="var-docstr">Create two providers with unique names, and call f with a unique
+entity name, and the provider names. Used for verifying (for
+instance) that products with the same name can be created in 2
+different providers.</pre>
+  
+  
+  <a href="https://github.com/weissjeffm/katello.auto/blob/a452f43bbff6496031ef67baa3950dcd98f29b09/src/katello/tests/providers.clj#L44" id="var-source">Source</a>
+</div>
 
 
 </div>
