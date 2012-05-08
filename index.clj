@@ -15,7 +15,7 @@
    :name "katello.conf",
    :doc nil}
   {:source-url
-   "https://github.com/weissjeffm/katello.auto/blob/0b13226226afd7bd82b15b8407b11259a3abb795/src/katello/locators.clj",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/locators.clj",
    :wiki-url "katello.locators-api.html",
    :name "katello.locators",
    :doc nil}
@@ -25,37 +25,42 @@
    :name "katello.rest",
    :doc nil}
   {:source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/blob/b5aa76bc3b0654c20b6c65015766fe892a91b7b5/src/katello/setup.clj",
+   :wiki-url "katello.setup-api.html",
+   :name "katello.setup",
+   :doc nil}
+  {:source-url
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url "katello.tasks-api.html",
    :name "katello.tasks",
    :doc nil}
   {:source-url
-   "https://github.com/weissjeffm/katello.auto/blob/a452f43bbff6496031ef67baa3950dcd98f29b09/src/katello/tests/e2e.clj",
+   "https://github.com/weissjeffm/katello.auto/blob/604375843e45b8ed26d975ce16cff0ab1e58cf41/src/katello/tests/e2e.clj",
    :wiki-url "katello.tests.e2e-api.html",
    :name "katello.tests.e2e",
    :doc nil}
   {:source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tests/environments.clj",
+   "https://github.com/weissjeffm/katello.auto/blob/5d4ed2388a00b8053d76bf06be8e3eb60130b4ff/src/katello/tests/environments.clj",
    :wiki-url "katello.tests.environments-api.html",
    :name "katello.tests.environments",
    :doc nil}
   {:source-url
-   "https://github.com/weissjeffm/katello.auto/blob/9ce1f1e2c388defe1b4fd9559a549764d1e89149/src/katello/tests/login.clj",
+   "https://github.com/weissjeffm/katello.auto/blob/604375843e45b8ed26d975ce16cff0ab1e58cf41/src/katello/tests/login.clj",
    :wiki-url "katello.tests.login-api.html",
    :name "katello.tests.login",
    :doc nil}
   {:source-url
-   "https://github.com/weissjeffm/katello.auto/blob/12085cfbe1336f119fd5d6e05bf264f41695e002/src/katello/tests/navigation.clj",
+   "https://github.com/weissjeffm/katello.auto/blob/604375843e45b8ed26d975ce16cff0ab1e58cf41/src/katello/tests/navigation.clj",
    :wiki-url "katello.tests.navigation-api.html",
    :name "katello.tests.navigation",
    :doc nil}
   {:source-url
-   "https://github.com/weissjeffm/katello.auto/blob/a0963904673a9dabee36fe2a3e51bc780acc1159/src/katello/tests/organizations.clj",
+   "https://github.com/weissjeffm/katello.auto/blob/604375843e45b8ed26d975ce16cff0ab1e58cf41/src/katello/tests/organizations.clj",
    :wiki-url "katello.tests.organizations-api.html",
    :name "katello.tests.organizations",
    :doc nil}
   {:source-url
-   "https://github.com/weissjeffm/katello.auto/blob/e7dfcf755fc4d7ebc164d08d68c37cf3c66622de/src/katello/tests/permissions.clj",
+   "https://github.com/weissjeffm/katello.auto/blob/604375843e45b8ed26d975ce16cff0ab1e58cf41/src/katello/tests/permissions.clj",
    :wiki-url "katello.tests.permissions-api.html",
    :name "katello.tests.permissions",
    :doc nil}
@@ -65,37 +70,32 @@
    :name "katello.tests.promotions",
    :doc nil}
   {:source-url
-   "https://github.com/weissjeffm/katello.auto/blob/a452f43bbff6496031ef67baa3950dcd98f29b09/src/katello/tests/providers.clj",
+   "https://github.com/weissjeffm/katello.auto/blob/5d4ed2388a00b8053d76bf06be8e3eb60130b4ff/src/katello/tests/providers.clj",
    :wiki-url "katello.tests.providers-api.html",
    :name "katello.tests.providers",
    :doc nil}
   {:source-url
-   "https://github.com/weissjeffm/katello.auto/blob/3c97d573ed74d147629f955f3e0975cee637f28d/src/katello/tests/setup.clj",
-   :wiki-url "katello.tests.setup-api.html",
-   :name "katello.tests.setup",
-   :doc nil}
-  {:source-url
-   "https://github.com/weissjeffm/katello.auto/blob/9ce1f1e2c388defe1b4fd9559a549764d1e89149/src/katello/tests/suite.clj",
+   "https://github.com/weissjeffm/katello.auto/blob/fef51ffd650641a3f63aa26da568cd2d8d3966e0/src/katello/tests/suite.clj",
    :wiki-url "katello.tests.suite-api.html",
    :name "katello.tests.suite",
    :doc nil}
   {:source-url
-   "https://github.com/weissjeffm/katello.auto/blob/a452f43bbff6496031ef67baa3950dcd98f29b09/src/katello/tests/sync_management.clj",
+   "https://github.com/weissjeffm/katello.auto/blob/5d4ed2388a00b8053d76bf06be8e3eb60130b4ff/src/katello/tests/sync_management.clj",
    :wiki-url "katello.tests.sync_management-api.html",
    :name "katello.tests.sync_management",
    :doc nil}
   {:source-url
-   "https://github.com/weissjeffm/katello.auto/blob/2c543f29e5a2db14839cfbecb82543595c73fd2b/src/katello/tests/systems.clj",
+   "https://github.com/weissjeffm/katello.auto/blob/5d4ed2388a00b8053d76bf06be8e3eb60130b4ff/src/katello/tests/systems.clj",
    :wiki-url "katello.tests.systems-api.html",
    :name "katello.tests.systems",
    :doc nil}
   {:source-url
-   "https://github.com/weissjeffm/katello.auto/blob/88be485bd2722df4ad14985b5cbeb1de5e2b5375/src/katello/tests/templates.clj",
+   "https://github.com/weissjeffm/katello.auto/blob/5d4ed2388a00b8053d76bf06be8e3eb60130b4ff/src/katello/tests/templates.clj",
    :wiki-url "katello.tests.templates-api.html",
    :name "katello.tests.templates",
    :doc nil}
   {:source-url
-   "https://github.com/weissjeffm/katello.auto/blob/ee1590d2429fd681ae1cc0797cea799dbab56f30/src/katello/tests/users.clj",
+   "https://github.com/weissjeffm/katello.auto/blob/5d4ed2388a00b8053d76bf06be8e3eb60130b4ff/src/katello/tests/users.clj",
    :wiki-url "katello.tests.users-api.html",
    :name "katello.tests.users",
    :doc nil}
@@ -313,23 +313,23 @@
    :name "choose-left-pane",
    :namespace "katello.locators",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/0b13226226afd7bd82b15b8407b11259a3abb795/src/katello/locators.clj#L344",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/locators.clj#L340",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/0b13226226afd7bd82b15b8407b11259a3abb795/src/katello/locators.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/locators.clj",
    :wiki-url
    "/katello.locators-api.html#katello.locators/choose-left-pane",
    :doc
    "Selects an item in the left pane. If the item is not found, a\nsearch is performed and the select is attempted again. Takes an\noptional post-fn to perform afterwards.",
    :var-type "function",
-   :line 344,
+   :line 340,
    :file "src/katello/locators.clj"}
   {:arglists ([m]),
    :name "define-strategies",
    :namespace "katello.locators",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/0b13226226afd7bd82b15b8407b11259a3abb795/src/katello/locators.clj#L15",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/locators.clj#L15",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/0b13226226afd7bd82b15b8407b11259a3abb795/src/katello/locators.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/locators.clj",
    :wiki-url
    "/katello.locators-api.html#katello.locators/define-strategies",
    :doc
@@ -341,38 +341,38 @@
    :name "inactive-edit-field",
    :namespace "katello.locators",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/0b13226226afd7bd82b15b8407b11259a3abb795/src/katello/locators.clj#L309",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/locators.clj#L312",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/0b13226226afd7bd82b15b8407b11259a3abb795/src/katello/locators.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/locators.clj",
    :wiki-url
    "/katello.locators-api.html#katello.locators/inactive-edit-field",
    :doc
    "Takes a locator for an active in-place edit field, returns the\ninactive version",
    :var-type "function",
-   :line 309,
+   :line 312,
    :file "src/katello/locators.clj"}
   {:arglists ([name]),
    :name "left-pane-item",
    :namespace "katello.locators",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/0b13226226afd7bd82b15b8407b11259a3abb795/src/katello/locators.clj#L315",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/locators.clj#L318",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/0b13226226afd7bd82b15b8407b11259a3abb795/src/katello/locators.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/locators.clj",
    :wiki-url
    "/katello.locators-api.html#katello.locators/left-pane-item",
    :doc
    "Returns a selenium locator for an item in a left\npane list (by the name of the item)",
    :var-type "function",
-   :line 315,
+   :line 318,
    :file "src/katello/locators.clj"}
   {:file "src/katello/locators.clj",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/0b13226226afd7bd82b15b8407b11259a3abb795/src/katello/locators.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/locators.clj",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/0b13226226afd7bd82b15b8407b11259a3abb795/src/katello/locators.clj#L378",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/locators.clj#L374",
    :wiki-url "/katello.locators-api.html#katello.locators/page-tree",
    :namespace "katello.locators",
-   :line 378,
+   :line 374,
    :var-type "var",
    :doc
    "The navigation layout of the UI. Each item in the tree is\na new page or tab, that you can drill down into from its parent\nitem. Each item contains a keyword to refer to the location in the\nUI, a list of any arguments needed to navigate there (for example,\nto navigate to a provider details page, you need the name of the\nprovider). Finally some code to navigate to the location from its\nparent location. See also katello.tasks/navigate.",
@@ -381,66 +381,53 @@
    :name "promotion-env-breadcrumb",
    :namespace "katello.locators",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/0b13226226afd7bd82b15b8407b11259a3abb795/src/katello/locators.clj#L299",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/locators.clj#L302",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/0b13226226afd7bd82b15b8407b11259a3abb795/src/katello/locators.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/locators.clj",
    :wiki-url
    "/katello.locators-api.html#katello.locators/promotion-env-breadcrumb",
    :doc
    "Locates a link in the environment breadcrumb UI widget. If there\nare multiple environment paths, and you wish to select Library,\n'next' is required.",
    :var-type "function",
-   :line 299,
+   :line 302,
    :file "src/katello/locators.clj"}
   {:arglists ([a-toggler associated-text on?]),
    :name "toggle",
    :namespace "katello.locators",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/0b13226226afd7bd82b15b8407b11259a3abb795/src/katello/locators.clj#L370",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/locators.clj#L366",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/0b13226226afd7bd82b15b8407b11259a3abb795/src/katello/locators.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/locators.clj",
    :wiki-url "/katello.locators-api.html#katello.locators/toggle",
    :doc "Toggles the item from on to off or vice versa.",
    :var-type "function",
-   :line 370,
+   :line 366,
    :file "src/katello/locators.clj"}
   {:arglists ([[on-text off-text] loc-strategy]),
    :name "toggler",
    :namespace "katello.locators",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/0b13226226afd7bd82b15b8407b11259a3abb795/src/katello/locators.clj#L355",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/locators.clj#L351",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/0b13226226afd7bd82b15b8407b11259a3abb795/src/katello/locators.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/locators.clj",
    :wiki-url "/katello.locators-api.html#katello.locators/toggler",
    :doc
    "Returns a function that returns a locator for the given on/off text\nand locator strategy. Used for clicking things like +Add/Remove for\nitems in changesets or permission lists.",
    :var-type "function",
-   :line 355,
+   :line 351,
    :file "src/katello/locators.clj"}
   {:file "src/katello/locators.clj",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/0b13226226afd7bd82b15b8407b11259a3abb795/src/katello/locators.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/locators.clj",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/0b13226226afd7bd82b15b8407b11259a3abb795/src/katello/locators.clj#L271",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/locators.clj#L274",
    :wiki-url "/katello.locators-api.html#katello.locators/uimap",
    :namespace "katello.locators",
-   :line 271,
+   :line 274,
    :var-type "var",
    :doc
    "All the selenium locators for the Katello UI. Maps a\nkeyword to the selenium locator. You can pass the keyword to\nselenium just the same as you would the locator string. See also\nSeleniumLocatable protocol.",
    :name "uimap"}
-  {:arglists ([link & [post-fn]]),
-   :name "via",
-   :namespace "katello.locators",
-   :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/0b13226226afd7bd82b15b8407b11259a3abb795/src/katello/locators.clj#L328",
-   :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/0b13226226afd7bd82b15b8407b11259a3abb795/src/katello/locators.clj",
-   :wiki-url "/katello.locators-api.html#katello.locators/via",
-   :doc
-   "Performs a navigation step by clicking a locator and calling\noptional post-click function.",
-   :var-type "function",
-   :line 328,
-   :file "src/katello/locators.clj"}
   {:arglists ([url & [req]]),
    :name "get",
    :namespace "katello.rest",
@@ -493,13 +480,53 @@
    :var-type "function",
    :line 36,
    :file "src/katello/rest.clj"}
+  {:arglists ([browser-string & [single-thread]]),
+   :name "new-selenium",
+   :namespace "katello.setup",
+   :source-url
+   "https://github.com/weissjeffm/katello.auto/blob/b5aa76bc3b0654c20b6c65015766fe892a91b7b5/src/katello/setup.clj#L14",
+   :raw-source-url
+   "https://github.com/weissjeffm/katello.auto/raw/b5aa76bc3b0654c20b6c65015766fe892a91b7b5/src/katello/setup.clj",
+   :wiki-url "/katello.setup-api.html#katello.setup/new-selenium",
+   :doc
+   "Returns a new selenium client. If running in a REPL or other\nsingle-session environment, set single-thread to true.",
+   :var-type "function",
+   :line 14,
+   :file "src/katello/setup.clj"}
+  {:arglists ([user pw]),
+   :name "switch-new-admin-user",
+   :namespace "katello.setup",
+   :source-url
+   "https://github.com/weissjeffm/katello.auto/blob/b5aa76bc3b0654c20b6c65015766fe892a91b7b5/src/katello/setup.clj#L27",
+   :raw-source-url
+   "https://github.com/weissjeffm/katello.auto/raw/b5aa76bc3b0654c20b6c65015766fe892a91b7b5/src/katello/setup.clj",
+   :wiki-url
+   "/katello.setup-api.html#katello.setup/switch-new-admin-user",
+   :doc
+   "Creates a new user with a unique name, assigns him admin\npermissions and logs in as that user.",
+   :var-type "function",
+   :line 27,
+   :file "src/katello/setup.clj"}
+  {:arglists ([consume-fn]),
+   :name "thread-runner",
+   :namespace "katello.setup",
+   :source-url
+   "https://github.com/weissjeffm/katello.auto/blob/b5aa76bc3b0654c20b6c65015766fe892a91b7b5/src/katello/setup.clj#L42",
+   :raw-source-url
+   "https://github.com/weissjeffm/katello.auto/raw/b5aa76bc3b0654c20b6c65015766fe892a91b7b5/src/katello/setup.clj",
+   :wiki-url "/katello.setup-api.html#katello.setup/thread-runner",
+   :doc
+   "A test.tree thread runner function that binds some variables for\neach thread. Starts selenium client for each thread before kicking\noff tests, and stops it after all tests are done.",
+   :var-type "function",
+   :line 42,
+   :file "src/katello/setup.clj"}
   {:arglists ([loc]),
    :name "activate-in-place",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L165",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L165",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url "/katello.tasks-api.html#katello.tasks/activate-in-place",
    :doc
    "For an in-place edit input, switch it from read-only to editing\nmode. Takes the locator of the input in editing mode as an\nargument.",
@@ -510,9 +537,9 @@
    :name "add-product",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L410",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L410",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url "/katello.tasks-api.html#katello.tasks/add-product",
    :doc
    "Adds a product to a provider, with the given name and description.",
@@ -523,9 +550,9 @@
    :name "add-repo",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L429",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L429",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url "/katello.tasks-api.html#katello.tasks/add-repo",
    :doc
    "Adds a repository under the given provider and product. Requires a\nname and url be given for the repo.",
@@ -536,9 +563,9 @@
    :name "add-to-changeset",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L194",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L194",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url "/katello.tasks-api.html#katello.tasks/add-to-changeset",
    :doc
    "Adds the given content to an existing changeset. The originating\nand target environments need to be specified to find to locate the\nchangeset.",
@@ -549,9 +576,9 @@
    :name "add-to-template",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L800",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L800",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url "/katello.tasks-api.html#katello.tasks/add-to-template",
    :doc
    "Adds content to a given template.  Example:\n(add-to-template 'mytemplate' [{:product 'prod3'\n                                :packages ['rpm1' 'rpm2']}\n                               {:product 'prod6'\n                                :repositories ['x86_64']}]",
@@ -562,22 +589,35 @@
    :name "assign-role",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L573",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L573",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url "/katello.tasks-api.html#katello.tasks/assign-role",
    :doc
    "Assigns the given user to the given roles. Roles should be a list\nof roles to assign.",
    :var-type "function",
    :line 573,
    :file "src/katello/tasks.clj"}
+  {:arglists ([username org-name env-name]),
+   :name "assign-user-default-org-and-env",
+   :namespace "katello.tasks",
+   :source-url
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L849",
+   :raw-source-url
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
+   :wiki-url
+   "/katello.tasks-api.html#katello.tasks/assign-user-default-org-and-env",
+   :doc "Assigns a default organization and environment to a user",
+   :var-type "function",
+   :line 849,
+   :file "src/katello/tasks.clj"}
   {:arglists ([& [timeout]]),
    :name "check-for-error",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L133",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L133",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url "/katello.tasks-api.html#katello.tasks/check-for-error",
    :doc
    "Waits for a notification up to the optional timeout (in ms), throws\nan exception if timeout is hit or error notification appears.",
@@ -588,9 +628,9 @@
    :name "check-for-success",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L118",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L118",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url "/katello.tasks-api.html#katello.tasks/check-for-success",
    :doc
    "Gets any notification from the UI, if there is none, or it's not a\nsuccess notification, raise an exception. Otherwise return the type\nand text of the message. Takes an optional max amount of time to\nwait, in ms.",
@@ -602,9 +642,9 @@
    :name "create-activation-key",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L750",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L750",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url
    "/katello.tasks-api.html#katello.tasks/create-activation-key",
    :doc
@@ -616,9 +656,9 @@
    :name "create-changeset",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L184",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L184",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url "/katello.tasks-api.html#katello.tasks/create-changeset",
    :doc
    "Creates a changeset for promotion from env-name to next-env name.",
@@ -629,9 +669,9 @@
    :name "create-environment",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L337",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L337",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url
    "/katello.tasks-api.html#katello.tasks/create-environment",
    :doc
@@ -643,9 +683,9 @@
    :name "create-environment-path",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L391",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L391",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url
    "/katello.tasks-api.html#katello.tasks/create-environment-path",
    :doc
@@ -657,9 +697,9 @@
    :name "create-organization",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L319",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L319",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url
    "/katello.tasks-api.html#katello.tasks/create-organization",
    :doc
@@ -671,9 +711,9 @@
    :name "create-provider",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L401",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L401",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url "/katello.tasks-api.html#katello.tasks/create-provider",
    :doc
    "Creates a custom provider with the given name and description.",
@@ -684,9 +724,9 @@
    :name "create-role",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L563",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L563",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url "/katello.tasks-api.html#katello.tasks/create-role",
    :doc "Creates a role with the given name and optional description.",
    :var-type "function",
@@ -704,9 +744,9 @@
    :name "create-sync-plan",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L696",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L696",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url "/katello.tasks-api.html#katello.tasks/create-sync-plan",
    :doc
    "Creates a sync plan with the given properties. Either specify a\nstart-date (as a java.util.Date object) or a separate string for\nstart-date-literal 'MM/dd/yyyy', and start-time-literal 'hh:mm aa'\nThe latter can also be used to specify invalid dates for validation\ntests.",
@@ -717,9 +757,9 @@
    :name "create-template",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L790",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L790",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url "/katello.tasks-api.html#katello.tasks/create-template",
    :doc
    "Creates a system template with the given name and optional\ndescription.",
@@ -733,9 +773,9 @@
    :name "create-user",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L508",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L508",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url "/katello.tasks-api.html#katello.tasks/create-user",
    :doc "Creates a user with the given name and properties.",
    :var-type "function",
@@ -745,9 +785,9 @@
    :name "current-sync-plan",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L740",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L740",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url "/katello.tasks-api.html#katello.tasks/current-sync-plan",
    :doc
    "Returns a map of what sync plan a product is currently scheduled\nfor. nil if UI says 'None'",
@@ -758,9 +798,9 @@
    :name "current-user",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L495",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L495",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url "/katello.tasks-api.html#katello.tasks/current-user",
    :doc
    "Returns the name of the currently logged in user, or nil if logged out.",
@@ -771,9 +811,9 @@
    :name "delete-activation-key",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L762",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L762",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url
    "/katello.tasks-api.html#katello.tasks/delete-activation-key",
    :doc "Deletes the given activation key.",
@@ -784,9 +824,9 @@
    :name "delete-environment",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L349",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L349",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url
    "/katello.tasks-api.html#katello.tasks/delete-environment",
    :doc "Deletes an environment from the given organization.",
@@ -797,9 +837,9 @@
    :name "delete-organization",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L328",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L328",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url
    "/katello.tasks-api.html#katello.tasks/delete-organization",
    :doc "Deletes the named organization.",
@@ -810,9 +850,9 @@
    :name "delete-product",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L420",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L420",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url "/katello.tasks-api.html#katello.tasks/delete-product",
    :doc "Deletes a product from the given provider.",
    :var-type "function",
@@ -822,9 +862,9 @@
    :name "delete-provider",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L450",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L450",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url "/katello.tasks-api.html#katello.tasks/delete-provider",
    :doc "Deletes the named custom provider.",
    :var-type "function",
@@ -834,9 +874,9 @@
    :name "delete-repo",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L440",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L440",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url "/katello.tasks-api.html#katello.tasks/delete-repo",
    :doc "Deletes a repository from the given provider and product.",
    :var-type "function",
@@ -846,9 +886,9 @@
    :name "delete-user",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L523",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L523",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url "/katello.tasks-api.html#katello.tasks/delete-user",
    :doc "Deletes the given user.",
    :var-type "function",
@@ -859,9 +899,9 @@
    :name "edit-environment",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L368",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L368",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url "/katello.tasks-api.html#katello.tasks/edit-environment",
    :doc
    "Edits an environment with the given name. Also takes a map\ncontaining the name of the environment's organization, and optional\nfields: a new name, a new description, and a new prior\nenvironment.",
@@ -872,9 +912,9 @@
    :name "edit-organization",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L360",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L360",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url "/katello.tasks-api.html#katello.tasks/edit-organization",
    :doc
    "Edits an organization. Currently the only property of an org that\ncan be edited is the org's description.",
@@ -885,9 +925,9 @@
    :name "edit-provider",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L458",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L458",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url "/katello.tasks-api.html#katello.tasks/edit-provider",
    :doc
    "Edits the named custom provider. Takes an optional new name, and\nnew description.",
@@ -899,9 +939,9 @@
    :name "edit-role",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L583",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L583",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url "/katello.tasks-api.html#katello.tasks/edit-role",
    :doc
    "Edits a role to add new permissions, remove existing permissions,\nand assign users to the role. Example:\n\n(edit-role 'myrole'\n           {:add-permissions [{:resource-type 'Organizations'\n                               :verbs ['Read Organization']\n                               :name 'newPerm1'}]\n            :remove-permissions ['existingPerm1' 'existingPerm2']\n            :users ['joe' 'bob']})",
@@ -921,9 +961,9 @@
    :name "edit-sync-plan",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L714",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L714",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url "/katello.tasks-api.html#katello.tasks/edit-sync-plan",
    :doc
    "Edits the given sync plan with optional new properties. See also\ncreate-sync-plan for more details.",
@@ -934,9 +974,9 @@
    :name "edit-system",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L668",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L668",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url "/katello.tasks-api.html#katello.tasks/edit-system",
    :doc
    "Edits the properties of the given system. Optionally specify a new\nname, a new description, and a new location.",
@@ -954,9 +994,9 @@
    :name "edit-user",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L530",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L530",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url "/katello.tasks-api.html#katello.tasks/edit-user",
    :doc
    "Edits the given user, changing any of the given properties (can\nchange more than one at once).",
@@ -967,9 +1007,9 @@
    :name "enable-redhat-repositories",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L828",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L828",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url
    "/katello.tasks-api.html#katello.tasks/enable-redhat-repositories",
    :doc "Enable the given list of repos in the current org.",
@@ -980,9 +1020,9 @@
    :name "ensure-current-user",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L501",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L501",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url
    "/katello.tasks-api.html#katello.tasks/ensure-current-user",
    :doc
@@ -994,9 +1034,9 @@
    :name "environment-content",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L288",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L288",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url
    "/katello.tasks-api.html#katello.tasks/environment-content",
    :doc
@@ -1008,9 +1048,9 @@
    :name "environment-has-content?",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L305",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L305",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url
    "/katello.tasks-api.html#katello.tasks/environment-has-content?",
    :doc
@@ -1022,9 +1062,9 @@
    :name "environment-other-possible-priors",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L382",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L382",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url
    "/katello.tasks-api.html#katello.tasks/environment-other-possible-priors",
    :doc
@@ -1036,9 +1076,9 @@
    :name "expecting-error",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L24",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L24",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url "/katello.tasks-api.html#katello.tasks/expecting-error",
    :doc
    "Inverts exception handling. Execute forms, if error is caught\nmatching selector, nil is returned. If no error is caught,\nan :unexpected-success error is thrown. If a non-matching error\noccurs, the exception will not be caught and will propagate up the\nstack.\nExamples: (expecting-error ArithmeticException (/ 1 0)) -> nil\n\n          (expecting-error ArithmeticException (/ 12 3)) ->\n            throws :unexpected-success exception.\n See also\nslingshot.slingshot/try+ for selector documentation",
@@ -1049,9 +1089,9 @@
    :name "fill-ajax-form",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L157",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L157",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url "/katello.tasks-api.html#katello.tasks/fill-ajax-form",
    :doc
    "Fills in a web form and clicks the submit button. Only waits for\najax calls to complete. Items should be a map, where the keys are\nlocators for form elements, and values are the values to fill in.\nSubmit should be a locator for the form submit button.",
@@ -1062,9 +1102,9 @@
    :name "in-place-edit",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L172",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L172",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url "/katello.tasks-api.html#katello.tasks/in-place-edit",
    :doc
    "Fill out a form that uses in-place editing.  Takes a map of\nlocators to values.  The locators given should be for the\nediting-mode version of the input, it will be activated from its\nread-only state automatically.",
@@ -1073,9 +1113,9 @@
    :file "src/katello/tasks.clj"}
   {:file "src/katello/tasks.clj",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L72",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L72",
    :wiki-url "/katello.tasks-api.html#katello.tasks/known-errors",
    :namespace "katello.tasks",
    :line 72,
@@ -1087,9 +1127,9 @@
    :name "logged-in?",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L466",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L466",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url "/katello.tasks-api.html#katello.tasks/logged-in?",
    :doc
    "Returns true if the browser is currently showing a page where a\nuser is logged in.",
@@ -1100,9 +1140,9 @@
    :name "logged-out?",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L472",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L472",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url "/katello.tasks-api.html#katello.tasks/logged-out?",
    :doc "Returns true if the login page is displayed.",
    :var-type "function",
@@ -1112,9 +1152,9 @@
    :name "login",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L483",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L483",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url "/katello.tasks-api.html#katello.tasks/login",
    :doc
    "Logs in a user to the UI with the given username and password. If\nany user is currently logged in, he will be logged out first.",
@@ -1125,9 +1165,9 @@
    :name "logout",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L477",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L477",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url "/katello.tasks-api.html#katello.tasks/logout",
    :doc "Logs out the current user from the UI.",
    :var-type "function",
@@ -1137,9 +1177,9 @@
    :name "manifest-already-uploaded?",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L783",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L783",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url
    "/katello.tasks-api.html#katello.tasks/manifest-already-uploaded?",
    :doc
@@ -1151,9 +1191,9 @@
    :name "matching-error",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L80",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L80",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url "/katello.tasks-api.html#katello.tasks/matching-error",
    :doc
    "Returns a keyword of known error, if the message matches any of\nthem.  If no matches, returns :katello-error.",
@@ -1164,9 +1204,9 @@
    :name "navigate",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L147",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L147",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url "/katello.tasks-api.html#katello.tasks/navigate",
    :doc
    "Navigates to a named location in the UI. The first\nargument should be a keyword for the place in the page tree to\nnavigate to. The 2nd optional argument is a mapping of keywords to\nstrings, if any arguments are needed to navigate there.\nExample: (navigate :named-organization-page {:org-name 'My org'})\nSee also katello.locators/page-tree for all the places that can be\nnavigated to.",
@@ -1177,9 +1217,9 @@
    :name "notification",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L101",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L101",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url "/katello.tasks-api.html#katello.tasks/notification",
    :doc
    "Gets the notification from the page, returns a map object\nrepresenting the notification (or nil if no notification is present\nwithin the optional timeout period). Default timeout is 15\nseconds.",
@@ -1190,9 +1230,9 @@
    :name "promote-changeset",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L216",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L216",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url "/katello.tasks-api.html#katello.tasks/promote-changeset",
    :doc
    "Promotes the given changeset to its target environment. An optional\ntimeout-ms key will specify how long to wait for the promotion to\ncomplete successfully.",
@@ -1203,9 +1243,9 @@
    :name "promote-content",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L250",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L250",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url "/katello.tasks-api.html#katello.tasks/promote-content",
    :doc
    "Promotes the given content from one environment to another. Example\ncontent:\n   {:products ['Product1' 'Product2']} ",
@@ -1216,9 +1256,9 @@
    :name "remove-role",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L629",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L629",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url "/katello.tasks-api.html#katello.tasks/remove-role",
    :doc "Deletes the given role.",
    :var-type "function",
@@ -1228,9 +1268,9 @@
    :name "search",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L552",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L552",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url "/katello.tasks-api.html#katello.tasks/search",
    :doc
    "Search for criteria in entity-type, scope not yet implemented.\ncheck for error with a 2s timeout.  In this case error is a \nerror jnotify object.",
@@ -1241,9 +1281,9 @@
    :name "subscribe-system",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L678",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L678",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url "/katello.tasks-api.html#katello.tasks/subscribe-system",
    :doc
    "Subscribes the given system to the products. (products should be a list).",
@@ -1254,9 +1294,9 @@
    :name "success?",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L95",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L95",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url "/katello.tasks-api.html#katello.tasks/success?",
    :doc
    "Returns true if the given notification is a 'success' type\nnotification (aka green notification in the UI).",
@@ -1267,9 +1307,9 @@
    :name "switch-org",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L823",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L823",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url "/katello.tasks-api.html#katello.tasks/switch-org",
    :doc "Switch to the given organization in the UI.",
    :var-type "function",
@@ -1279,9 +1319,9 @@
    :name "sync-complete-status",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L640",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L640",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url
    "/katello.tasks-api.html#katello.tasks/sync-complete-status",
    :doc
@@ -1293,9 +1333,9 @@
    :name "sync-repos",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L652",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L652",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url "/katello.tasks-api.html#katello.tasks/sync-repos",
    :doc
    "Syncs the given list of repositories. Also takes an optional\ntimeout (in ms) of how long to wait for the sync to complete before\nthrowing an error.  Default timeout is 2 minutes.",
@@ -1306,9 +1346,9 @@
    :name "sync-schedule",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L729",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L729",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url "/katello.tasks-api.html#katello.tasks/sync-schedule",
    :doc
    "Schedules the given list of products to be synced using the given\nsync plan name.",
@@ -1319,9 +1359,9 @@
    :name "sync-success?",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L647",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L647",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url "/katello.tasks-api.html#katello.tasks/sync-success?",
    :doc "Returns true if given sync result is a success.",
    :var-type "function",
@@ -1331,9 +1371,9 @@
    :name "timestamps",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L43",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L43",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url "/katello.tasks-api.html#katello.tasks/timestamps",
    :doc
    "Returns an infinite lazy sequence of timestamps in ms, starting\nwith the current time, incrementing the time by one on each\nsuccessive item.",
@@ -1344,9 +1384,9 @@
    :name "unique-names",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L50",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L50",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url "/katello.tasks-api.html#katello.tasks/unique-names",
    :doc
    "Returns an infinite lazy sequence of timestamped strings, uses s as\nthe base string.",
@@ -1357,9 +1397,9 @@
    :name "uniqueify",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L56",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L56",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url "/katello.tasks-api.html#katello.tasks/uniqueify",
    :doc
    "Returns one unique string using s as the base string.\nExample: (unique-name 'joe') -> 'joe-12694956934'",
@@ -1370,9 +1410,9 @@
    :name "upload-subscription-manifest",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L770",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L770",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url
    "/katello.tasks-api.html#katello.tasks/upload-subscription-manifest",
    :doc
@@ -1385,9 +1425,9 @@
    :name "verify-all-search-results-contain-criteria",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L271",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L271",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url
    "/katello.tasks-api.html#katello.tasks/verify-all-search-results-contain-criteria",
    :doc
@@ -1399,9 +1439,9 @@
    :name "verify-success",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L140",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L140",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url "/katello.tasks-api.html#katello.tasks/verify-success",
    :doc
    "Calls task-fn and checks for a success message afterwards. If none\nis found, or an error notification appears, throws an exception.",
@@ -1412,9 +1452,9 @@
    :name "with-org",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L840",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L840",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url "/katello.tasks-api.html#katello.tasks/with-org",
    :doc
    "Switch to organization org-name, then execute the code in body. Finally,\nswitch back to the previous org, even if there was an error.",
@@ -1425,9 +1465,9 @@
    :name "with-unique",
    :namespace "katello.tasks",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L62",
+   "https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L62",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj",
    :wiki-url "/katello.tasks-api.html#katello.tasks/with-unique",
    :doc
    "Binds variables to unique strings. Example:\n(with-unique [x 'foo' y 'bar'] [x y]) will give something like:\n  ['foo-12346748964356' 'bar-12346748964357']",
@@ -1438,13 +1478,13 @@
    :name "test-client-access",
    :namespace "katello.tests.e2e",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/a452f43bbff6496031ef67baa3950dcd98f29b09/src/katello/tests/e2e.clj#L16",
+   "https://github.com/weissjeffm/katello.auto/blob/604375843e45b8ed26d975ce16cff0ab1e58cf41/src/katello/tests/e2e.clj#L16",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/a452f43bbff6496031ef67baa3950dcd98f29b09/src/katello/tests/e2e.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/604375843e45b8ed26d975ce16cff0ab1e58cf41/src/katello/tests/e2e.clj",
    :wiki-url
    "/katello.tests.e2e-api.html#katello.tests.e2e/test-client-access",
    :doc
-   "content like [ {:name 'myprod' :poolName 'myprod 24/7' :repos ['myrepoa' 'myrepob']} ]",
+   "In an org named org-name, promotes products into target-env. Then\non a client machine, registers the client to the Katello server,\nsubscribes to the products, and then installs packages-to-install.\nExample of products: [ {:name 'myprod' :poolName 'myprod\n24/7' :repos ['myrepoa' 'myrepob']} ]",
    :var-type "function",
    :line 16,
    :file "src/katello/tests/e2e.clj"}
@@ -1452,9 +1492,9 @@
    :name "create-test-org",
    :namespace "katello.tests.environments",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tests/environments.clj#L66",
+   "https://github.com/weissjeffm/katello.auto/blob/5d4ed2388a00b8053d76bf06be8e3eb60130b4ff/src/katello/tests/environments.clj#L66",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tests/environments.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/5d4ed2388a00b8053d76bf06be8e3eb60130b4ff/src/katello/tests/environments.clj",
    :wiki-url
    "/katello.tests.environments-api.html#katello.tests.environments/create-test-org",
    :doc "Creates a new org for testing environments\nusing the API.",
@@ -1465,9 +1505,9 @@
    :name "setup-environment-with-promoted-content",
    :namespace "katello.tests.environments",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tests/environments.clj#L48",
+   "https://github.com/weissjeffm/katello.auto/blob/5d4ed2388a00b8053d76bf06be8e3eb60130b4ff/src/katello/tests/environments.clj#L48",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tests/environments.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/5d4ed2388a00b8053d76bf06be8e3eb60130b4ff/src/katello/tests/environments.clj",
    :wiki-url
    "/katello.tests.environments-api.html#katello.tests.environments/setup-environment-with-promoted-content",
    :doc
@@ -1479,9 +1519,9 @@
    :name "verify-create-same-env-in-multiple-orgs",
    :namespace "katello.tests.environments",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tests/environments.clj#L39",
+   "https://github.com/weissjeffm/katello.auto/blob/5d4ed2388a00b8053d76bf06be8e3eb60130b4ff/src/katello/tests/environments.clj#L39",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tests/environments.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/5d4ed2388a00b8053d76bf06be8e3eb60130b4ff/src/katello/tests/environments.clj",
    :wiki-url
    "/katello.tests.environments-api.html#katello.tests.environments/verify-create-same-env-in-multiple-orgs",
    :doc
@@ -1493,9 +1533,9 @@
    :name "verify-delete-env-restricted-to-this-org",
    :namespace "katello.tests.environments",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tests/environments.clj#L21",
+   "https://github.com/weissjeffm/katello.auto/blob/5d4ed2388a00b8053d76bf06be8e3eb60130b4ff/src/katello/tests/environments.clj#L21",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tests/environments.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/5d4ed2388a00b8053d76bf06be8e3eb60130b4ff/src/katello/tests/environments.clj",
    :wiki-url
    "/katello.tests.environments-api.html#katello.tests.environments/verify-delete-env-restricted-to-this-org",
    :doc
@@ -1507,41 +1547,68 @@
    :name "verify-invalid-login-rejected",
    :namespace "katello.tests.login",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/9ce1f1e2c388defe1b4fd9559a549764d1e89149/src/katello/tests/login.clj#L20",
+   "https://github.com/weissjeffm/katello.auto/blob/604375843e45b8ed26d975ce16cff0ab1e58cf41/src/katello/tests/login.clj#L16",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/9ce1f1e2c388defe1b4fd9559a549764d1e89149/src/katello/tests/login.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/604375843e45b8ed26d975ce16cff0ab1e58cf41/src/katello/tests/login.clj",
    :wiki-url
    "/katello.tests.login-api.html#katello.tests.login/verify-invalid-login-rejected",
    :doc
    "Try to login with the given credentials, verify that a proper error\nmessage appears in the UI.",
    :var-type "function",
-   :line 20,
+   :line 16,
    :file "src/katello/tests/login.clj"}
   {:arglists ([tab]),
    :name "verify-navigation",
    :namespace "katello.tests.navigation",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/12085cfbe1336f119fd5d6e05bf264f41695e002/src/katello/tests/navigation.clj#L8",
+   "https://github.com/weissjeffm/katello.auto/blob/604375843e45b8ed26d975ce16cff0ab1e58cf41/src/katello/tests/navigation.clj#L8",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/12085cfbe1336f119fd5d6e05bf264f41695e002/src/katello/tests/navigation.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/604375843e45b8ed26d975ce16cff0ab1e58cf41/src/katello/tests/navigation.clj",
    :wiki-url
    "/katello.tests.navigation-api.html#katello.tests.navigation/verify-navigation",
    :doc "Navigates to a tab",
    :var-type "function",
    :line 8,
    :file "src/katello/tests/navigation.clj"}
+  {:arglists ([org-name]),
+   :name "create-test-org",
+   :namespace "katello.tests.organizations",
+   :source-url
+   "https://github.com/weissjeffm/katello.auto/blob/604375843e45b8ed26d975ce16cff0ab1e58cf41/src/katello/tests/organizations.clj#L14",
+   :raw-source-url
+   "https://github.com/weissjeffm/katello.auto/raw/604375843e45b8ed26d975ce16cff0ab1e58cf41/src/katello/tests/organizations.clj",
+   :wiki-url
+   "/katello.tests.organizations-api.html#katello.tests.organizations/create-test-org",
+   :doc "Creates an organization named org-name via the API",
+   :var-type "function",
+   :line 14,
+   :file "src/katello/tests/organizations.clj"}
+  {:arglists ([]),
+   :name "get-all-org-names",
+   :namespace "katello.tests.organizations",
+   :source-url
+   "https://github.com/weissjeffm/katello.auto/blob/604375843e45b8ed26d975ce16cff0ab1e58cf41/src/katello/tests/organizations.clj#L21",
+   :raw-source-url
+   "https://github.com/weissjeffm/katello.auto/raw/604375843e45b8ed26d975ce16cff0ab1e58cf41/src/katello/tests/organizations.clj",
+   :wiki-url
+   "/katello.tests.organizations-api.html#katello.tests.organizations/get-all-org-names",
+   :doc
+   "Returns a list of the names of all the organizations in the system.\nUses the API.",
+   :var-type "function",
+   :line 21,
+   :file "src/katello/tests/organizations.clj"}
   {:arglists
    ([{:keys [permissions allowed-actions disallowed-actions setup]}]),
    :name "verify-access",
    :namespace "katello.tests.permissions",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/e7dfcf755fc4d7ebc164d08d68c37cf3c66622de/src/katello/tests/permissions.clj#L38",
+   "https://github.com/weissjeffm/katello.auto/blob/604375843e45b8ed26d975ce16cff0ab1e58cf41/src/katello/tests/permissions.clj#L38",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/e7dfcf755fc4d7ebc164d08d68c37cf3c66622de/src/katello/tests/permissions.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/604375843e45b8ed26d975ce16cff0ab1e58cf41/src/katello/tests/permissions.clj",
    :wiki-url
    "/katello.tests.permissions-api.html#katello.tests.permissions/verify-access",
    :doc
-   "First tries all actions with a user with no permissions, to make\nsure they all fail. Then gives a new user the permissions, and\nretries the actions to ensure they all succeed, finally tries\nout-of-bounds actions to make sure they still fail.",
+   "Assigns a new user to a new role with the given permissions. That\nuser is logs in, and tries the allowed-actions to ensure they all\nsucceed, finally tries disallowed-actions to make sure they all\nfail. If any setup needs to be done to set up an action, a no-arg\nfunction can be passed in as setup. (for instance, if you're\ntesting a permission to modify users, you need a test user to\nattempt to modify).",
    :var-type "function",
    :line 38,
    :file "src/katello/tests/permissions.clj"}
@@ -1576,9 +1643,9 @@
    :name "create-same-provider-in-multiple-orgs",
    :namespace "katello.tests.providers",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/a452f43bbff6496031ef67baa3950dcd98f29b09/src/katello/tests/providers.clj#L56",
+   "https://github.com/weissjeffm/katello.auto/blob/5d4ed2388a00b8053d76bf06be8e3eb60130b4ff/src/katello/tests/providers.clj#L56",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/a452f43bbff6496031ef67baa3950dcd98f29b09/src/katello/tests/providers.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/5d4ed2388a00b8053d76bf06be8e3eb60130b4ff/src/katello/tests/providers.clj",
    :wiki-url
    "/katello.tests.providers-api.html#katello.tests.providers/create-same-provider-in-multiple-orgs",
    :doc "Create providers with the same name in multiple orgs.",
@@ -1589,9 +1656,9 @@
    :name "create-test-provider",
    :namespace "katello.tests.providers",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/a452f43bbff6496031ef67baa3950dcd98f29b09/src/katello/tests/providers/custom-product.clj#L11",
+   "https://github.com/weissjeffm/katello.auto/blob/5d4ed2388a00b8053d76bf06be8e3eb60130b4ff/src/katello/tests/providers/custom-product.clj#L11",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/a452f43bbff6496031ef67baa3950dcd98f29b09/src/katello/tests/providers/custom-product.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/5d4ed2388a00b8053d76bf06be8e3eb60130b4ff/src/katello/tests/providers/custom-product.clj",
    :wiki-url
    "/katello.tests.providers-api.html#katello.tests.providers/create-test-provider",
    :doc "Sets up a test custom provider to be used by other tests.",
@@ -1602,9 +1669,9 @@
    :name "get-all-providers",
    :namespace "katello.tests.providers",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/a452f43bbff6496031ef67baa3950dcd98f29b09/src/katello/tests/providers.clj#L18",
+   "https://github.com/weissjeffm/katello.auto/blob/5d4ed2388a00b8053d76bf06be8e3eb60130b4ff/src/katello/tests/providers.clj#L18",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/a452f43bbff6496031ef67baa3950dcd98f29b09/src/katello/tests/providers.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/5d4ed2388a00b8053d76bf06be8e3eb60130b4ff/src/katello/tests/providers.clj",
    :wiki-url
    "/katello.tests.providers-api.html#katello.tests.providers/get-all-providers",
    :doc "Uses API to return all provider names in the admin org",
@@ -1615,9 +1682,9 @@
    :name "get-validation-data",
    :namespace "katello.tests.providers",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/a452f43bbff6496031ef67baa3950dcd98f29b09/src/katello/tests/providers.clj#L69",
+   "https://github.com/weissjeffm/katello.auto/blob/5d4ed2388a00b8053d76bf06be8e3eb60130b4ff/src/katello/tests/providers.clj#L69",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/a452f43bbff6496031ef67baa3950dcd98f29b09/src/katello/tests/providers.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/5d4ed2388a00b8053d76bf06be8e3eb60130b4ff/src/katello/tests/providers.clj",
    :wiki-url
    "/katello.tests.providers-api.html#katello.tests.providers/get-validation-data",
    :doc
@@ -1629,9 +1696,9 @@
    :name "validation",
    :namespace "katello.tests.providers",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/a452f43bbff6496031ef67baa3950dcd98f29b09/src/katello/tests/providers.clj#L63",
+   "https://github.com/weissjeffm/katello.auto/blob/5d4ed2388a00b8053d76bf06be8e3eb60130b4ff/src/katello/tests/providers.clj#L63",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/a452f43bbff6496031ef67baa3950dcd98f29b09/src/katello/tests/providers.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/5d4ed2388a00b8053d76bf06be8e3eb60130b4ff/src/katello/tests/providers.clj",
    :wiki-url
    "/katello.tests.providers-api.html#katello.tests.providers/validation",
    :doc
@@ -1643,9 +1710,9 @@
    :name "verify-provider-renamed",
    :namespace "katello.tests.providers",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/a452f43bbff6496031ef67baa3950dcd98f29b09/src/katello/tests/providers.clj#L22",
+   "https://github.com/weissjeffm/katello.auto/blob/5d4ed2388a00b8053d76bf06be8e3eb60130b4ff/src/katello/tests/providers.clj#L22",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/a452f43bbff6496031ef67baa3950dcd98f29b09/src/katello/tests/providers.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/5d4ed2388a00b8053d76bf06be8e3eb60130b4ff/src/katello/tests/providers.clj",
    :wiki-url
    "/katello.tests.providers-api.html#katello.tests.providers/verify-provider-renamed",
    :doc
@@ -1657,9 +1724,9 @@
    :name "with-n-new-orgs",
    :namespace "katello.tests.providers",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/a452f43bbff6496031ef67baa3950dcd98f29b09/src/katello/tests/providers.clj#L30",
+   "https://github.com/weissjeffm/katello.auto/blob/5d4ed2388a00b8053d76bf06be8e3eb60130b4ff/src/katello/tests/providers.clj#L30",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/a452f43bbff6496031ef67baa3950dcd98f29b09/src/katello/tests/providers.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/5d4ed2388a00b8053d76bf06be8e3eb60130b4ff/src/katello/tests/providers.clj",
    :wiki-url
    "/katello.tests.providers-api.html#katello.tests.providers/with-n-new-orgs",
    :doc
@@ -1671,9 +1738,9 @@
    :name "with-two-providers",
    :namespace "katello.tests.providers",
    :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/a452f43bbff6496031ef67baa3950dcd98f29b09/src/katello/tests/providers.clj#L44",
+   "https://github.com/weissjeffm/katello.auto/blob/5d4ed2388a00b8053d76bf06be8e3eb60130b4ff/src/katello/tests/providers.clj#L44",
    :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/a452f43bbff6496031ef67baa3950dcd98f29b09/src/katello/tests/providers.clj",
+   "https://github.com/weissjeffm/katello.auto/raw/5d4ed2388a00b8053d76bf06be8e3eb60130b4ff/src/katello/tests/providers.clj",
    :wiki-url
    "/katello.tests.providers-api.html#katello.tests.providers/with-two-providers",
    :doc
@@ -1681,48 +1748,6 @@
    :var-type "function",
    :line 44,
    :file "src/katello/tests/providers.clj"}
-  {:arglists ([browser-string & [single-thread]]),
-   :name "new-selenium",
-   :namespace "katello.tests.setup",
-   :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/3c97d573ed74d147629f955f3e0975cee637f28d/src/katello/tests/setup.clj#L14",
-   :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/3c97d573ed74d147629f955f3e0975cee637f28d/src/katello/tests/setup.clj",
-   :wiki-url
-   "/katello.tests.setup-api.html#katello.tests.setup/new-selenium",
-   :doc
-   "Returns a new selenium client. If running in a REPL or other\nsingle-session environment, set single-thread to true.",
-   :var-type "function",
-   :line 14,
-   :file "src/katello/tests/setup.clj"}
-  {:arglists ([user pw]),
-   :name "switch-new-admin-user",
-   :namespace "katello.tests.setup",
-   :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/3c97d573ed74d147629f955f3e0975cee637f28d/src/katello/tests/setup.clj#L27",
-   :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/3c97d573ed74d147629f955f3e0975cee637f28d/src/katello/tests/setup.clj",
-   :wiki-url
-   "/katello.tests.setup-api.html#katello.tests.setup/switch-new-admin-user",
-   :doc
-   "Creates a new user with a unique name, assigns him admin\npermissions and logs in as that user.",
-   :var-type "function",
-   :line 27,
-   :file "src/katello/tests/setup.clj"}
-  {:arglists ([consume-fn]),
-   :name "thread-runner",
-   :namespace "katello.tests.setup",
-   :source-url
-   "https://github.com/weissjeffm/katello.auto/blob/3c97d573ed74d147629f955f3e0975cee637f28d/src/katello/tests/setup.clj#L42",
-   :raw-source-url
-   "https://github.com/weissjeffm/katello.auto/raw/3c97d573ed74d147629f955f3e0975cee637f28d/src/katello/tests/setup.clj",
-   :wiki-url
-   "/katello.tests.setup-api.html#katello.tests.setup/thread-runner",
-   :doc
-   "A test.tree thread runner function that binds some variables for\neach thread. Starts selenium client for each thread before kicking\noff tests, and stops it after all tests are done.",
-   :var-type "function",
-   :line 42,
-   :file "src/katello/tests/setup.clj"}
   {:arglists ([coll]),
    :name "cant-be-blank-errors",
    :namespace "katello.validation",

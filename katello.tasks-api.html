@@ -35,7 +35,7 @@ namespace.
     <div class="NamespaceTOC">
       <span class="toc-header">Namespaces</span>
       <ul id="left-sidebar-list">
-        <li><a href="katello.api-tasks-api.html" class="wiki_link">katello.api-tasks</a></li><li><a href="katello.client-api.html" class="wiki_link">katello.client</a></li><li><a href="katello.conf-api.html" class="wiki_link">katello.conf</a></li><li><a href="katello.locators-api.html" class="wiki_link">katello.locators</a></li><li><a href="katello.rest-api.html" class="wiki_link">katello.rest</a></li><li><a href="katello.tasks-api.html" class="wiki_link">katello.tasks</a></li><li><a href="katello.tests.e2e-api.html" class="wiki_link">katello.tests.e2e</a></li><li><a href="katello.tests.environments-api.html" class="wiki_link">katello.tests.environments</a></li><li><a href="katello.tests.login-api.html" class="wiki_link">katello.tests.login</a></li><li><a href="katello.tests.navigation-api.html" class="wiki_link">katello.tests.navigation</a></li><li><a href="katello.tests.organizations-api.html" class="wiki_link">katello.tests.organizations</a></li><li><a href="katello.tests.permissions-api.html" class="wiki_link">katello.tests.permissions</a></li><li><a href="katello.tests.promotions-api.html" class="wiki_link">katello.tests.promotions</a></li><li><a href="katello.tests.providers-api.html" class="wiki_link">katello.tests.providers</a></li><li><a href="katello.tests.setup-api.html" class="wiki_link">katello.tests.setup</a></li><li><a href="katello.tests.suite-api.html" class="wiki_link">katello.tests.suite</a></li><li><a href="katello.tests.sync_management-api.html" class="wiki_link">katello.tests.sync_management</a></li><li><a href="katello.tests.systems-api.html" class="wiki_link">katello.tests.systems</a></li><li><a href="katello.tests.templates-api.html" class="wiki_link">katello.tests.templates</a></li><li><a href="katello.tests.users-api.html" class="wiki_link">katello.tests.users</a></li><li><a href="katello.validation-api.html" class="wiki_link">katello.validation</a></li>
+        <li><a href="katello.api-tasks-api.html" class="wiki_link">katello.api-tasks</a></li><li><a href="katello.client-api.html" class="wiki_link">katello.client</a></li><li><a href="katello.conf-api.html" class="wiki_link">katello.conf</a></li><li><a href="katello.locators-api.html" class="wiki_link">katello.locators</a></li><li><a href="katello.rest-api.html" class="wiki_link">katello.rest</a></li><li><a href="katello.setup-api.html" class="wiki_link">katello.setup</a></li><li><a href="katello.tasks-api.html" class="wiki_link">katello.tasks</a></li><li><a href="katello.tests.e2e-api.html" class="wiki_link">katello.tests.e2e</a></li><li><a href="katello.tests.environments-api.html" class="wiki_link">katello.tests.environments</a></li><li><a href="katello.tests.login-api.html" class="wiki_link">katello.tests.login</a></li><li><a href="katello.tests.navigation-api.html" class="wiki_link">katello.tests.navigation</a></li><li><a href="katello.tests.organizations-api.html" class="wiki_link">katello.tests.organizations</a></li><li><a href="katello.tests.permissions-api.html" class="wiki_link">katello.tests.permissions</a></li><li><a href="katello.tests.promotions-api.html" class="wiki_link">katello.tests.promotions</a></li><li><a href="katello.tests.providers-api.html" class="wiki_link">katello.tests.providers</a></li><li><a href="katello.tests.suite-api.html" class="wiki_link">katello.tests.suite</a></li><li><a href="katello.tests.sync_management-api.html" class="wiki_link">katello.tests.sync_management</a></li><li><a href="katello.tests.systems-api.html" class="wiki_link">katello.tests.systems</a></li><li><a href="katello.tests.templates-api.html" class="wiki_link">katello.tests.templates</a></li><li><a href="katello.tests.users-api.html" class="wiki_link">katello.tests.users</a></li><li><a href="katello.validation-api.html" class="wiki_link">katello.validation</a></li>
       </ul>
     </div>
     
@@ -63,6 +63,8 @@ namespace.
       <a href="#katello.tasks/add-to-template">add-to-template</a>
     </div><div style="margin-left: 1em;" class="toc-entry">
       <a href="#katello.tasks/assign-role">assign-role</a>
+    </div><div style="margin-left: 1em;" class="toc-entry">
+      <a href="#katello.tasks/assign-user-default-org-and-env">assign-user-default-org-and-env</a>
     </div><div style="margin-left: 1em;" class="toc-entry">
       <a href="#katello.tasks/check-for-error">check-for-error</a>
     </div><div style="margin-left: 1em;" class="toc-entry">
@@ -220,7 +222,7 @@ mode. Takes the locator of the input in editing mode as an
 argument.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L165" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L165" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -231,7 +233,7 @@ argument.</pre>
   <pre id="var-docstr">Adds a product to a provider, with the given name and description.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L410" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L410" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -243,7 +245,7 @@ argument.</pre>
 name and url be given for the repo.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L429" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L429" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -256,7 +258,7 @@ and target environments need to be specified to find to locate the
 changeset.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L194" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L194" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -271,7 +273,7 @@ changeset.</pre>
                                 :repositories ['x86_64']}]</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L800" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L800" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -283,7 +285,18 @@ changeset.</pre>
 of roles to assign.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L573" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L573" id="var-source">Source</a>
+</div><div id="var-entry">
+  <br />
+  <hr />
+  <h2 id="katello.tasks/assign-user-default-org-and-env">assign-user-default-org-and-env</h2>
+  <span id="var-type">function</span><br />
+  <pre id="var-usage">Usage: (assign-user-default-org-and-env username org-name env-name)
+</pre>
+  <pre id="var-docstr">Assigns a default organization and environment to a user</pre>
+  
+  
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L849" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -295,7 +308,7 @@ of roles to assign.</pre>
 an exception if timeout is hit or error notification appears.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L133" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L133" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -309,7 +322,7 @@ and text of the message. Takes an optional max amount of time to
 wait, in ms.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L118" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L118" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -321,7 +334,7 @@ wait, in ms.</pre>
 and system-template are optional.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L750" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L750" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -332,7 +345,7 @@ and system-template are optional.</pre>
   <pre id="var-docstr">Creates a changeset for promotion from env-name to next-env name.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L184" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L184" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -345,7 +358,7 @@ the organization name to create the environment in, the prior
 environment, and an optional description.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L337" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L337" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -358,7 +371,7 @@ the environment list must not already exist in the given org. Example:
 (create-environment-path 'ACME_Corporation' ['Dev' 'QA' 'Production'])</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L391" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L391" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -369,7 +382,7 @@ the environment list must not already exist in the given org. Example:
   <pre id="var-docstr">Creates an organization with the given name and optional description.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L319" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L319" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -380,7 +393,7 @@ the environment list must not already exist in the given org. Example:
   <pre id="var-docstr">Creates a custom provider with the given name and description.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L401" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L401" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -391,7 +404,7 @@ the environment list must not already exist in the given org. Example:
   <pre id="var-docstr">Creates a role with the given name and optional description.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L563" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L563" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -406,7 +419,7 @@ The latter can also be used to specify invalid dates for validation
 tests.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L696" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L696" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -418,7 +431,7 @@ tests.</pre>
 description.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L790" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L790" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -429,7 +442,7 @@ description.</pre>
   <pre id="var-docstr">Creates a user with the given name and properties.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L508" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L508" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -441,7 +454,7 @@ description.</pre>
 for. nil if UI says 'None'</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L740" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L740" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -452,7 +465,7 @@ for. nil if UI says 'None'</pre>
   <pre id="var-docstr">Returns the name of the currently logged in user, or nil if logged out.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L495" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L495" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -463,7 +476,7 @@ for. nil if UI says 'None'</pre>
   <pre id="var-docstr">Deletes the given activation key.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L762" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L762" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -474,7 +487,7 @@ for. nil if UI says 'None'</pre>
   <pre id="var-docstr">Deletes an environment from the given organization.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L349" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L349" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -485,7 +498,7 @@ for. nil if UI says 'None'</pre>
   <pre id="var-docstr">Deletes the named organization.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L328" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L328" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -496,7 +509,7 @@ for. nil if UI says 'None'</pre>
   <pre id="var-docstr">Deletes a product from the given provider.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L420" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L420" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -507,7 +520,7 @@ for. nil if UI says 'None'</pre>
   <pre id="var-docstr">Deletes the named custom provider.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L450" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L450" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -518,7 +531,7 @@ for. nil if UI says 'None'</pre>
   <pre id="var-docstr">Deletes a repository from the given provider and product.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L440" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L440" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -529,7 +542,7 @@ for. nil if UI says 'None'</pre>
   <pre id="var-docstr">Deletes the given user.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L523" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L523" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -543,7 +556,7 @@ fields: a new name, a new description, and a new prior
 environment.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L368" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L368" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -555,7 +568,7 @@ environment.</pre>
 can be edited is the org's description.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L360" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L360" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -567,7 +580,7 @@ can be edited is the org's description.</pre>
 new description.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L458" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L458" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -586,7 +599,7 @@ and assign users to the role. Example:
             :users ['joe' 'bob']})</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L583" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L583" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -598,7 +611,7 @@ and assign users to the role. Example:
 create-sync-plan for more details.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L714" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L714" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -610,7 +623,7 @@ create-sync-plan for more details.</pre>
 name, a new description, and a new location.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L668" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L668" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -622,7 +635,7 @@ name, a new description, and a new location.</pre>
 change more than one at once).</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L530" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L530" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -633,7 +646,7 @@ change more than one at once).</pre>
   <pre id="var-docstr">Enable the given list of repos in the current org.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L828" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L828" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -645,7 +658,7 @@ change more than one at once).</pre>
 with given username and password.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L501" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L501" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -656,7 +669,7 @@ with given username and password.</pre>
   <pre id="var-docstr">Returns the content that is available to promote, in the given environment.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L288" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L288" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -667,7 +680,7 @@ with given username and password.</pre>
   <pre id="var-docstr">If all the content is present in the given environment, returns true.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L305" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L305" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -679,7 +692,7 @@ with given username and password.</pre>
 environment (will not include the currently selected prior).</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L382" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L382" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -700,7 +713,7 @@ Examples: (expecting-error ArithmeticException (/ 1 0)) -&gt; nil
 slingshot.slingshot/try+ for selector documentation</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L24" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L24" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -714,7 +727,7 @@ locators for form elements, and values are the values to fill in.
 Submit should be a locator for the form submit button.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L157" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L157" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -728,7 +741,7 @@ editing-mode version of the input, it will be activated from its
 read-only state automatically.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L172" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L172" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -740,7 +753,7 @@ automation throw and catch the right type of exception interally,
 taking UI error messages and mapping them to internal error types.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L72" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L72" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -752,7 +765,7 @@ taking UI error messages and mapping them to internal error types.</pre>
 user is logged in.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L466" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L466" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -763,7 +776,7 @@ user is logged in.</pre>
   <pre id="var-docstr">Returns true if the login page is displayed.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L472" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L472" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -775,7 +788,7 @@ user is logged in.</pre>
 any user is currently logged in, he will be logged out first.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L483" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L483" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -786,7 +799,7 @@ any user is currently logged in, he will be logged out first.</pre>
   <pre id="var-docstr">Logs out the current user from the UI.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L477" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L477" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -798,7 +811,7 @@ any user is currently logged in, he will be logged out first.</pre>
 content uploaded.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L783" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L783" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -810,7 +823,7 @@ content uploaded.</pre>
 them.  If no matches, returns :katello-error.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L80" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L80" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -827,7 +840,7 @@ See also katello.locators/page-tree for all the places that can be
 navigated to.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L147" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L147" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -841,7 +854,7 @@ within the optional timeout period). Default timeout is 15
 seconds.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L101" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L101" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -854,7 +867,7 @@ timeout-ms key will specify how long to wait for the promotion to
 complete successfully.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L216" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L216" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -867,7 +880,7 @@ content:
    {:products ['Product1' 'Product2']} </pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L250" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L250" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -878,7 +891,7 @@ content:
   <pre id="var-docstr">Deletes the given role.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L629" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L629" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -891,7 +904,7 @@ check for error with a 2s timeout.  In this case error is a
 error jnotify object.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L552" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L552" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -902,7 +915,7 @@ error jnotify object.</pre>
   <pre id="var-docstr">Subscribes the given system to the products. (products should be a list).</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L678" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L678" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -914,7 +927,7 @@ error jnotify object.</pre>
 notification (aka green notification in the UI).</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L95" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L95" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -925,7 +938,7 @@ notification (aka green notification in the UI).</pre>
   <pre id="var-docstr">Switch to the given organization in the UI.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L823" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L823" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -937,7 +950,7 @@ notification (aka green notification in the UI).</pre>
 synced, or queued, returns nil.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L640" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L640" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -950,7 +963,7 @@ timeout (in ms) of how long to wait for the sync to complete before
 throwing an error.  Default timeout is 2 minutes.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L652" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L652" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -962,7 +975,7 @@ throwing an error.  Default timeout is 2 minutes.</pre>
 sync plan name.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L729" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L729" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -973,7 +986,7 @@ sync plan name.</pre>
   <pre id="var-docstr">Returns true if given sync result is a success.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L647" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L647" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -986,7 +999,7 @@ with the current time, incrementing the time by one on each
 successive item.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L43" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L43" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -998,7 +1011,7 @@ successive item.</pre>
 the base string.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L50" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L50" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -1010,7 +1023,7 @@ the base string.</pre>
 Example: (unique-name 'joe') -&gt; 'joe-12694956934'</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L56" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L56" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -1023,7 +1036,7 @@ selenium browser. Optionally specify a new repository url for Red
 Hat content- if not specified, the default url is kept.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L770" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L770" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -1035,7 +1048,7 @@ Hat content- if not specified, the default url is kept.</pre>
 search criteria. Scope is currently not implemented.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L271" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L271" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -1047,7 +1060,7 @@ search criteria. Scope is currently not implemented.</pre>
 is found, or an error notification appears, throws an exception.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L140" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L140" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -1059,7 +1072,7 @@ is found, or an error notification appears, throws an exception.</pre>
 switch back to the previous org, even if there was an error.</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L840" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L840" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -1072,7 +1085,7 @@ switch back to the previous org, even if there was an error.</pre>
   ['foo-12346748964356' 'bar-12346748964357']</pre>
   
   
-  <a href="https://github.com/weissjeffm/katello.auto/blob/1a543533c920d789cc57a2f3dbd30d9b0b3a4056/src/katello/tasks.clj#L62" id="var-source">Source</a>
+  <a href="https://github.com/weissjeffm/katello.auto/blob/6398ef87585090dd78a1f2521fe1c8257cf5b605/src/katello/tasks.clj#L62" id="var-source">Source</a>
 </div>
 
 
