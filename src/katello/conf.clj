@@ -1,6 +1,8 @@
 (ns katello.conf
   (:require [clojure.java.io :as io]
-            [clojure.string :as string])
+            [clojure.string :as string]
+            clojure.tools.cli
+            selenium-server)
   
   (:import [java.io PushbackReader FileNotFoundException]
            [java.util.logging Level Logger]))
@@ -12,9 +14,7 @@
   [["-h" "--help" "Print usage guide"
     :default false :flag true]
 
-   ["-c" "--config" "Config files (containing a clojure map of config options) to read and overlay on top of other command line options - a list of comma separated places to look - first existing file is used and rest are ignored."
-    :default ["automation-properties.clj" (format "%s/automation-properties.clj" (System/getProperty "user.home"))]
-    :parse-fn #(string/split % #",")]
+   ["-s" "--server-url" "URL of the Katello server to test.  Should use https URL if https is enabled."]
    
    ["-u" "--admin-user" "The admin username of the Katello server"
     :default "admin"]
@@ -25,7 +25,7 @@
    ["-o" "--admin-org" "Name of Katello's admin organization"
     :default "ACME_Corporation"]
 
-   ["-s" "--sync-repo" "The url for a test repo to sync"
+   ["-y" "--sync-repo" "The url for a test repo to sync"
     :default "http://download.englab.brq.redhat.com/scratch/inecas/fakerepos/cds/content/nature/6Server/x86_64/rpms/"]
    ["-m" "--redhat-manifest-url" "URL that points to a Red Hat test manifest"
     :default "http://inecas.fedorapeople.org/fakerepos/cds/fake-manifest-syncable.zip"]
@@ -45,8 +45,14 @@
     :parse-fn #(Integer. %) :default 3]
 
    ["-b" "--browser-types" "Selenium browser types, eg '*firefox' or '*firefox,*googlechrome' (multiple values only used when threads > 1"
-    :default ["*firefox"] :parse-fn #(string/split % #",")]])
+    :default ["*firefox"] :parse-fn #(string/split % #",")]
 
+
+   ["-c" "--config" "Config files (containing a clojure map of config options) to read and overlay  other command line options on top of - a list of comma separated places to look - first existing file is used and rest are ignored."
+    :default ["automation-properties.clj" (format "%s/automation-properties.clj" (System/getProperty "user.home"))]
+    :parse-fn #(string/split % #",")]])
+
+(def defaults (first (apply clojure.tools.cli/cli [] options)))
 
 (def config (atom {}))
 
@@ -75,13 +81,19 @@
   ;;bid adeiu to j.u.l logging
   (-> (Logger/getLogger "") (.setLevel Level/OFF))
   
-  (when-let [config-files (opts :config)]
-    (swap! config merge
-           opts
-           (->> config-files
-              try-read-configs
-              (drop-while nil?)
-              first)))
+  (swap! config merge defaults opts)
+  (swap! config merge (->> (:config @config)
+                         try-read-configs
+                         (drop-while nil?)
+                         first))
+  (swap! config merge opts) ; merge 2nd time to override anything in
+                            ; config files
+
+  ;; if user didn't specify sel address, start a server and use that
+  ;; address.
+  (when-not (@config :selenium-address)
+    (selenium-server/start)
+    (swap! config assoc :selenium-address "localhost:4444"))
   
   (def ^:dynamic *session-user* (@config :admin-user))
   (def ^:dynamic *session-password* (@config :admin-password))
