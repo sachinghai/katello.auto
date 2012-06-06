@@ -9,9 +9,9 @@
 
 (defmacro bind-client-with-open [client-val & body]
   `(binding [*client* ~client-val]
-     (let [res# (do ~@body)]
-       (.close *client*)
-       res#)))
+     (try ~@body
+          (finally
+           (.close *client*)))))
 
 (defmacro with-client-cert
   "Execute body and makes any included rest calls with the given certificate"
